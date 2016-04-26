@@ -6,3 +6,4 @@ srv_gen/
 *.pyc
 *.swp
 *.swo
+*~

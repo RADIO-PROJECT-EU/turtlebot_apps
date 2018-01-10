@@ -16,7 +16,7 @@
   <arg name="scan_topic" default="/hokuyo_base/scan"/>
   
   <include file="$(find turtlebot_navigation)/launch/includes/gmapping.launch.xml">
-     <arg name="scan_topic" value="/hokuyo_base/scan"/>
+     <arg name="scan_topic" value="$(arg scan_topic)"/>
   </include>
 
   <!--include file="$(find turtlebot_navigation)/launch/includes/move_base.launch.xml"/-->
